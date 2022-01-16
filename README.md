@@ -1,6 +1,6 @@
 # groupstudy
 
-A new Flutter project.
+An unfinished Flutter application designed to help users create study sessions with friends, allowing them to keep each other accountable and prevent each other from procrastinating. Built with Flutter and Firebase. Intended to use NodeJS for external API calls. Built for DeltaHacks 8.
 
 ## Getting Started
 
