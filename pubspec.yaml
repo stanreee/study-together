@@ -29,11 +29,18 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  firebase_core: ^1.10.0
+  firebase_auth: ^3.0.2
+  cloud_firestore: ^3.1.0
+  flutter_bloc: ^8.0.0
+  google_sign_in: '^4.5.1'
 
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+  fluttertoast: ^8.0.8
+  wakelock: ^0.6.0+1
 
 dev_dependencies:
   flutter_test:
@@ -56,6 +63,17 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+
+  assets:
+    - images/start_page.png
+    - images/sign_up_page.png
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: fonts/Roboto-Regular.ttf
+        - asset: fonts/Roboto-Bold.ttf
+          weight: 700
 
   # To add assets to your application, add an assets section, like this:
   # assets:
